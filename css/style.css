@@ -1,0 +1,189 @@
+/* Reset some default browser spacing */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the whole webpage */
+body {
+    font-family: "Manrope", sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 40px;
+}
+
+/* Main title */
+h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Space below the search form */
+form {
+    margin-bottom: 30px;
+}
+
+/* Search box */
+input {
+    width: 500px;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Search button */
+button {
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: royalblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Button hover effect */
+button:hover {
+    background-color: dodgerblue;
+}
+
+/* Area where GIFs will appear */
+#results {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+    margin-top: 30px;
+}
+/* ---------- Header ---------- */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: royalblue;
+}
+/* ---------- Hero Section ---------- */
+
+.hero {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.hero h2 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    width: 70%;
+    margin: 0 auto;
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+}/* ---------- GIF Cards ---------- */
+
+#results img {
+    width: 100%;
+    border-radius: 12px;
+    transition: transform 0.3s ease;
+}
+
+#results img:hover {
+    transform: scale(1.05);
+}
+
+#results div {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 8px 20px rgba(0,0,0,.12);
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* ---------- Mobile Devices ---------- */
+
+@media (max-width: 320px) {
+
+    header {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .hero h2 {
+        font-size: 26px;
+    }
+
+    .hero p {
+        width: 90%;
+        font-size: 16px;
+    }
+
+    form {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    input {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    #results {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+/* Search Bar Container */
+.search-card {
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+}
+/* GIF Cards */
+.card {
+    background: white;
+    border-radius: 15px;
+    padding: 15px;
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+    transition: transform .3s;
+}
+
+/* Animation when hovering */
+.card:hover {
+    transform: translateY(-8px);
+}
+
+/* Images inside the cards */
+.card img {
+    width: 100%;
+    border-radius: 10px;
+}
