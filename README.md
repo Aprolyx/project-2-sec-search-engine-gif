@@ -22,6 +22,15 @@ The GIF Search Engine is a web application that allows users to search for anima
 - JavaScript (ES6)
 - GIPHY API
 - Google Fonts (Manrope)
+## Wireframes
+
+### Desktop Wireframe
+
+![Desktop Wireframe](wireframes/desktop-wireframe.jpg)
+
+### Mobile Wireframe
+
+![Mobile Wireframe](wireframes/mobile-wireframe.jpg)
 
 ## How to Use
 
