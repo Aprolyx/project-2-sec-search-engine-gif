@@ -34,7 +34,19 @@ The GIF Search Engine is a web application that allows users to search for anima
 ### Mobile Wireframe
 
 ![Mobile Wireframe](wireframes/mobile-wireframe.jpg)
+## Installation
 
+1. Clone the repository:
+
+```bash
+git clone https://github.com/Aprolyx/project-2-sec-search-engine-gif.git
+```
+
+2. Open the downloaded project folder in Visual Studio Code.
+
+3. Open `index.html` using Live Server or your preferred web browser.
+
+4. Make sure you have an active internet connection so the GIPHY API can retrieve GIFs. 
 ## How to Use
 
 1. Open the website.
