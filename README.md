@@ -1,5 +1,8 @@
 # GIF Search Engine
+## Live Project
 
+- Live Website: https://aprolyx.github.io/project-2-sec-search-engine-gif/
+- GitHub Repository: https://github.com/Aprolyx/project-2-sec-search-engine-gif
 ## Project Overview
 
 The GIF Search Engine is a web application that allows users to search for animated GIFs using the GIPHY API. Users simply enter a keyword, and the application displays matching GIFs in a responsive grid layout.
