@@ -119,6 +119,18 @@ I also learned how to use Git and GitHub to track changes, publish my project wi
 - Allow users to download GIFs
 - Add GIF categories
 
+## Project Requirements Completed
+
+- Created at least three user stories
+- Created desktop and mobile wireframes
+- Added a search input and submit button
+- Connected the application to the GIPHY Search API
+- Displayed returned GIFs dynamically
+- Used Flexbox for the header, search form, and GIF layout
+- Added a responsive media query for screens 320px and below
+- Used the Manrope Google Font
+- Published the project with GitHub Pages
+
 ## Author
 
 April Sanchez
