@@ -56,6 +56,26 @@ The application sends a request to the GIPHY API using JavaScript's `fetch()` me
 - JavaScript (ES6)
 - GIPHY API
 - Google Fonts (Manrope)
+
+## Skills Demonstrated
+
+- HTML5 page structure
+- CSS Flexbox and Grid
+- Responsive Web Design
+- JavaScript (ES6)
+- API integration using Fetch
+- JSON data processing
+- DOM manipulation
+- Error handling
+- Git version control
+- GitHub Pages deployment
+
+
+## Project Objectives
+
+The goal of this project was to build a responsive web application that interacts with an external API. The project demonstrates the ability to retrieve data, process JSON responses, dynamically update the webpage, and create a user-friendly interface using HTML, CSS, and JavaScript.
+
+
 ## Wireframes
 
 ### Desktop Wireframe
