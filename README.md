@@ -40,6 +40,15 @@ project-2-sec-search-engine-gif/
 └── README.md
 ```
 
+## API Information
+
+This project uses the **GIPHY API** to search and retrieve animated GIFs based on keywords entered by the user.
+
+API Used:
+https://developers.giphy.com/
+
+The application sends a request to the GIPHY API using JavaScript's `fetch()` method, processes the JSON response, and dynamically displays the GIFs on the webpage.
+
 ## Technologies Used
 
 - HTML5
