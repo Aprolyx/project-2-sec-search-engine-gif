@@ -85,6 +85,12 @@ git clone https://github.com/Aprolyx/project-2-sec-search-engine-gif.git
 3. Click the Search button.
 4. Browse the GIFs returned from the GIPHY API.
 
+## Lessons Learned
+
+During this project, I strengthened my understanding of HTML, CSS, and JavaScript while learning how to work with an external API. I gained experience using the `fetch()` method to retrieve data, handling JSON responses, and dynamically displaying content on a webpage.
+
+I also learned how to use Git and GitHub to track changes, publish my project with GitHub Pages, and document my work with a professional README.
+
 ## Future Improvements
 
 - Add Trending GIFs page
