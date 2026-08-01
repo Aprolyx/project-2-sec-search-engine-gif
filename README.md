@@ -19,6 +19,27 @@ The GIF Search Engine is a web application that allows users to search for anima
 - Error handling for failed API requests
 - Message displayed when no GIFs are found
 
+
+## Project Structure
+
+```text
+project-2-sec-search-engine-gif/
+│
+├── assets/
+├── css/
+│   └── style.css
+├── images/
+│   ├── project-screenshot.png
+│   └── ...
+├── js/
+│   └── main.js
+├── wireframes/
+│   ├── desktop-wireframe.jpg
+│   └── mobile-wireframe.jpg
+├── index.html
+└── README.md
+```
+
 ## Technologies Used
 
 - HTML5
