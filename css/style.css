@@ -23,8 +23,12 @@ h1 {
    Search Form
 ========================== */
 form {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
     margin-bottom: 30px;
 }
+
 
 /* ==========================
    Search Bar
@@ -53,11 +57,13 @@ button:hover {
 
 /* Area where GIFs will appear */
 #results {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
     gap: 20px;
     margin-top: 30px;
 }
+
 /* ==========================
    Header
 ========================== */
@@ -165,10 +171,14 @@ nav a:hover {
     }
 
     #results {
-        grid-template-columns: 1fr;
-    }
-
+    flex-direction: column;
+    align-items: center;
 }
+.card {
+    width: 100%;
+    }
+}
+
 
 /* Search Bar Container */
 .search-card {
@@ -178,6 +188,7 @@ nav a:hover {
 }
 /* GIF Cards */
 .card {
+    width: 220px;
     background: white;
     border-radius: 15px;
     padding: 15px;
