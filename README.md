@@ -102,6 +102,15 @@ I also learned how to use Git and GitHub to track changes, publish my project wi
 ## Author
 
 April Sanchez
+## Acknowledgements
+
+I would like to thank the following resources for helping me complete this project:
+
+- GIPHY Developers API for providing the GIF search API.
+- Google Fonts for the Manrope font used throughout the website.
+- GitHub Pages for hosting the live application.
+- My Software Engineering course for providing the project requirements and learning objectives.
+
 ## User Stories
 
 - As a user, I want to search for GIFs using a keyword so that I can quickly find animated images related to my search.
