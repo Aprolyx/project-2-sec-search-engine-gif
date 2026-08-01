@@ -1,23 +1,30 @@
-const API_KEY = "UYYkKlnrni2VRFJHW3ckqcXz1zCzoF4k";// Find the search form
+const API_KEY = "UYYkKlnrni2VRFJHW3ckqcXz1zCzoF4k";// Get the search form
 const form = document.getElementById("search-form");
 
-// Find the search input
+// Get the search input
 const searchInput = document.getElementById("search-input");
 
-// Find the results container
+// Get the container where GIFs will be displayed
 const results = document.getElementById("results");
 
-// Listen for when the form is submitted
+// ==========================
+// Search Form Submission
+// ==========================
 form.addEventListener("submit", function(event) {
 
-    // Stop the page from refreshing
+   // Prevent the page from refreshing
     event.preventDefault();
 
-    // Get what the user typed
+   // Get the user's search term
     const keyword = searchInput.value;
 
     // Show it on the page (temporary)
 const url = `https://api.giphy.com/v1/gifs/search?api_key=${API_KEY}&q=${keyword}&limit=20`;
+
+// ==========================
+// Fetch GIF Data from GIPHY
+// ==========================
+
 fetch(url)
     .then(function(response) {
         return response.json();
@@ -30,6 +37,10 @@ fetch(url)
             results.innerHTML = "<h2>No GIFs found. Try another search.</h2>";
             return;
         }
+
+ // ==========================
+// Display GIF Results
+// ==========================
 
         data.data.forEach(function(gif) {
 
@@ -49,6 +60,10 @@ fetch(url)
          });
 
     })
+// ==========================
+// Error Handling
+// ==========================
+
     .catch(function(error) {
         results.innerHTML = "<h2>Something went wrong. Please try again.</h2>";
         console.error(error);
