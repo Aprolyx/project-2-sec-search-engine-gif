@@ -1,4 +1,5 @@
 # GIF Search Engine
+![Project Screenshot](images/project-screenshot.png)
 ## Live Project
 
 - Live Website: https://aprolyx.github.io/project-2-sec-search-engine-gif/
